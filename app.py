@@ -186,6 +186,8 @@ st.markdown("---")
 
 
 with st.sidebar:
+    st.sidebar.title("AstroClassify")
+    st.sidebar.markdown("<hr style='margin-top: -10px; margin-bottom: 15px;'>", unsafe_allow_html=True)    
     st.header("Observational Parameters")
     st.write("Adjust the photometric magnitudes and redshift values used for astronomical object classification.")
 
